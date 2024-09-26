@@ -7,11 +7,11 @@ const fs = require('fs');
 const app = express();
 app.use(bodyParser.json());
 
-const appID = 'wx4332ff0381187660'; // 小程序Id
-const appSecret = '5cbf1abcca9853636797cadef1f1077c'; // 小程序密钥
-const mchId = '1675813286'; // 商户号
-const apiKeyV3 = '5cabh2de431e71afc60ce8ba203ac389'; // v3密钥
-const serialNo = '486C2D660F31A4HSE46A5810F410CA924AF9'; // 商家序列号
+const appID = 'xxxxxxxxxxxxxxxxxx'; // 小程序Id
+const appSecret = 'xxxxxxxxxxxxxxxxxx'; // 小程序密钥
+const mchId = 'xxxxxxxxxxxxxxxxxx'; // 商户号
+const apiKeyV3 = 'xxxxxxxxxxxxxxxxxx'; // v3密钥
+const serialNo = 'xxxxxxxxxxxxxxxxxx'; // 商家序列号
 
 // 加载商户私钥
 const privateKey = fs.readFileSync('./apiclient_key.pem', 'utf8');
